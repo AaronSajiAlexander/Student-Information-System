@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Faculty Login</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div class="forms">
+                <div class="form-login">
+                    <span class="title">
+                        <h1>Faculty Login</h1>
+                    </span>
+
+                    <form action="faculty_login.php" method="post">
+                        <div class="input-field">
+                            <label for="username"></label>
+                            <input type="text" placeholder="Username" name="username" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="password"></label>
+                            <input type="password" class="password" placeholder="Password" name="password" required>
+                            <i class="uil uil-lock icon "></i>
+                        </div>
+                        <div class="input-field button">
+                            <input class="login-now" type="submit" value="Login Now">
+                        </div>
+                    </form>
+                    <div><a href="login.html">User login</a>&nbsp;&nbsp;<a href="admin_login.html">Admin login</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

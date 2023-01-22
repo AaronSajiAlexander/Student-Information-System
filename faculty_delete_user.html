@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Delete Student</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div>
+                <div class="form login">
+                    <span class="title">
+                        <h1>Delete Student</h1>
+                    </span>
+
+                    <form action="faculty_delete_user.php" method="post">
+                        <div class="input-field">
+                            <label for="student_id"></label>
+                            <input type="text" placeholder="Student ID" name="student_id" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field button">
+                            <input type="submit" value="Delete">
+                        </div>
+                    </form>
+                    <br>
+                    <button onclick="window.location='faculty_home.html'">Home Page</button>
+                    <button onclick="window.location='login.html'">Exit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

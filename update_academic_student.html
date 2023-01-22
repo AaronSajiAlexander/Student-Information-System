@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Update Student</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div>
+                <div class="form login">
+                    <span class="title">
+                        <h1>Update Academic Details</h1>
+                    </span>
+                    <center>
+                        <form action="update_academic_student.php" method="post">
+                            <div class="input-field">
+                                <label for="student_id"></label>
+                                <input type="text" placeholder="Student ID" name="student_id" required>
+                                <i class="uil uil-user "></i>
+                            </div>
+                            <div class="input-field">
+                                <label for="10th_marks"></label>
+                                <input type="text" placeholder="10th Mark (out of 100)" name="10th_marks" required>
+                                <i class="uil uil-user "></i>
+                            </div>
+                            <div class="input-field">
+                                <label for="12th_marks"></label>
+                                <input type="text" placeholder="12th Mark (out of 100)" name="12th_marks" required>
+                                <i class="uil uil-user "></i>
+                            </div>
+                            <div class="input-field">
+                                <label for="cgpa"></label>
+                                <input type="text" placeholder="CGPA" name="cgpa" required>
+                                <i class="uil uil-user "></i>
+                            </div>
+                            <div class="input-field">
+                                <label for="arrears"></label>
+                                <input type="text" placeholder="Number of Arrears" name="arrears" required>
+                                <i class="uil uil-user "></i>
+                            </div>
+                            <div class="input-field button">
+                                <input type="submit" value="Update">
+                            </div>
+                        </form>
+                        <br>
+                        <button onclick="window.location='faculty_home.html'">Home Page</button>
+                        <button onclick="window.location='faculty_login.html'">Exit</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

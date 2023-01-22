@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Update Student</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div>
+                <div class="form login">
+                    <span class="title">
+                        <h1>Update Personal Details</h1>
+                    </span>
+                    <center>
+                    <form action="update_personal_student.php" method="post">
+                        <div class="input-field">
+                            <label for="name"></label>
+                            <input type="text" placeholder="Student Name" name="name" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="age"></label>
+                            <input type="text" placeholder="Student Age" name="age" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="gender"></label>
+                            <input type="text" placeholder="Student Gender" name="gender" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="parent_pno"></label>
+                            <input type="text" placeholder="Parent Phone Number" name="parent_pno" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="bloodgroup"></label>
+                            <input type="text" placeholder="Student Bloodgroup" name="bloodgroup" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="father_name"></label>
+                            <input type="text" placeholder="Father's Name" name="father_name" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="mother_name"></label>
+                            <input type="text" placeholder="Mother's Name" name="mother_name" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field">
+                            <label for="student_id"></label>
+                            <input type="text" placeholder="Student ID" name="student_id" required>
+                            <i class="uil uil-user "></i>
+                        </div>
+                        <div class="input-field button">
+                            <input type="submit" value="Update">
+                        </div>
+                    </form>
+                    <br>
+                    <button onclick="window.location='faculty_home.html'">Home Page</button>
+                    <button onclick="window.location='faculty_login.html'">Exit</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
